@@ -1,0 +1,39 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled executable files
+procedural_frame  # Your compiled binary (name from your compilation command)
+*.exe
+*.out
+
+# Build directories (if you use a build system like CMake or Make)
+build/
+**/build/
+bin/
+obj/
+
+# Dependency directories (SDL2 or other libraries)
+**/deps/
+**/vendor/
+
+# IDE-specific files (e.g., Xcode, VS Code)
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+*.xcscheme
+.vscode/
+*.code-workspace
+
+# macOS-specific files
+.DS_Store
+*.swp
+*.swo
+
+# Temporary files
+*~
+*.bak
+*.tmp
+
+# Your specific file to exclude
+notes.txt
